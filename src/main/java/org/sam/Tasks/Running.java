@@ -4,12 +4,12 @@ import org.powbot.api.Condition;
 import org.powbot.api.Random;
 import org.powbot.api.rt4.Movement;
 import org.sam.Task;
-import org.sam.samScriptName;
+import org.sam.samGreenDragons;
 
 public class Running extends Task {
-    samScriptName main;
+    samGreenDragons main;
 
-    public Running(samScriptName main) {
+    public Running(samGreenDragons main) {
         super();
         super.name = "Setting Run";
         this.main = main;

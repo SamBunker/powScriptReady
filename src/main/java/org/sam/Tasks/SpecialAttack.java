@@ -5,12 +5,12 @@ import org.powbot.api.Random;
 import org.powbot.api.rt4.Combat;
 import org.sam.Functions;
 import org.sam.Task;
-import org.sam.samScriptName;
+import org.sam.samGreenDragons;
 
 public class SpecialAttack extends Task {
-    samScriptName main;
+    samGreenDragons main;
 
-    public SpecialAttack(samScriptName main) {
+    public SpecialAttack(samGreenDragons main) {
         super();
         super.name = "Using Special Attack";
         this.main = main;
